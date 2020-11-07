@@ -15,7 +15,7 @@ class DoadorEnderecos {
   id: string;
   
   @Column()
-  CEP: string;
+  cep: string;
   
   @Column()
   numero: string;
