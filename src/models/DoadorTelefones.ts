@@ -15,7 +15,7 @@ class DoadorTelefones {
   id: string;
 
   @Column()
-  numero: string;
+  numero: number;
   
   @Column()
   operadora: string;

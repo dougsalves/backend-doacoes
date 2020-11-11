@@ -7,7 +7,24 @@ export class CreateDoacaoItens1604715228527 implements MigrationInterface {
             new Table({
                 name: 'doacaoitens',
                 columns: [
-                    
+                    {
+                        name: 'id',
+                        type: 'uuid',
+                        isPrimary: true,
+                        generationStrategy: 'uuid',
+                    },
+                    {
+                        name: 'id_doacao',
+                        type: 'uuid',                        
+                    },
+                    {
+                        name: 'id_produto',
+                        type: 'uuid',                        
+                    },
+                    {
+                        name: 'qtde',
+                        type: 'number',
+                    }
                 ]
             })
         )

@@ -15,7 +15,7 @@ export default class CreateDoadorTelefones1604714374319 implements MigrationInte
                     },
                     {
                         name: 'numero',
-                        type: 'varchar',
+                        type: 'number',
                     },
                     {
                         name: 'operadora',
